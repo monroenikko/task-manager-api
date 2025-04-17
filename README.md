@@ -73,3 +73,4 @@ STEPS how to use in the fresh local machine.
 
 -   copy the .env.example into .env
 -   then Run the docker compose up -d
+-   Instead of Dockerfile I put it dockerize folder
