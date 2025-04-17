@@ -65,6 +65,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-## TASK MANAGER
+## DESCRIPTION
 
 This task manager simple app is dockerize with Swagger documentation
+
+STEPS how to use in the fresh local machine.
+
+-   copy the .env.example into .env
+-   then Run the docker compose up -d
