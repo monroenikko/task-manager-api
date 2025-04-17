@@ -69,15 +69,14 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 This task manager simple app is dockerize with Swagger documentation
 
-STEPS how to use in the fresh local machine.
+## STEPS how to use in the fresh local machine.
 
 -   copy the .env.example into .env
--   then Run the docker compose up -d
 -   Instead of Dockerfile I put it dockerize folder
-    Build and start Containers
+-   Build and start Containers
 -   docker compose up -d --build
-    Install PHP Dependencies (Laravel)
+-   Install PHP Dependencies (Laravel)
 -   docker compose run --rm composer install
 -   docker compose exec php php artisan key:generate
-    Access the App
-    http://localhost:8081/api/documentation
+-   Access the App
+-   http://localhost:8081/api/documentation
